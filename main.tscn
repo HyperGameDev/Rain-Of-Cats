@@ -1,194 +1,194 @@
-[gd_scene load_steps=6 format=3 uid="uid://dyhijkou31c5g"]
+[gd_scn load_stps=6 format=3 uid="uid://dyhijkou31c5g"]
 
-[ext_resource type="Script" uid="uid://diy4k3t3cci8h" path="res://main_script.gd" id="1_ig7tw"]
-[ext_resource type="Texture2D" uid="uid://chqspxmbetsym" path="res://goat.png" id="2_1bvp3"]
-[ext_resource type="Texture2D" uid="uid://plb16317f2q4" path="res://cat.png" id="2_h2yge"]
-[ext_resource type="Texture2D" uid="uid://d0owh2fkvop7e" path="res://dog.png" id="3_h2yge"]
+[xt_rsourc typ="Script" uid="uid://diy4k3t3cci8h" path="rs://main_script.gd" id="1_ig7tw"]
+[xt_rsourc typ="Txtur2D" uid="uid://chqspxmbtsym" path="rs://goat.png" id="2_1bvp3"]
+[xt_rsourc typ="Txtur2D" uid="uid://plb16317f2q4" path="rs://cat.png" id="2_h2yg"]
+[xt_rsourc typ="Txtur2D" uid="uid://d0owh2fkvop7" path="rs://dog.png" id="3_h2yg"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_v3qvk"]
+[sub_rsourc typ="StylBoxmpty" id="StylBoxmpty_v3qvk"]
 
-[node name="Control" type="Control"]
-layout_mode = 3
-anchors_preset = 15
+[nod nam="Control" typ="Control"]
+layout_mod = 3
+anchors_prst = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
-grow_vertical = 2
-script = ExtResource("1_ig7tw")
+grow_vrtical = 2
+script = xtRsourc("1_ig7tw")
 
-[node name="Control_Cats" type="Control" parent="."]
-unique_name_in_owner = true
-layout_mode = 1
-anchors_preset = 15
+[nod nam="Control_Cats" typ="Control" parnt="."]
+uniqu_nam_in_ownr = tru
+layout_mod = 1
+anchors_prst = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_top = -184.0
-offset_bottom = -184.0
+offst_top = -184.0
+offst_bottom = -184.0
 grow_horizontal = 2
-grow_vertical = 2
+grow_vrtical = 2
 
-[node name="Control_Cat_0" type="Control" parent="Control_Cats"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[nod nam="Control_Cat_0" typ="Control" parnt="Control_Cats"]
+layout_mod = 3
+anchors_prst = 0
+offst_right = 40.0
+offst_bottom = 40.0
 
-[node name="Button_Cat_0" type="Button" parent="Control_Cats/Control_Cat_0"]
-modulate = Color(4.62055e-06, 0.717463, 0.867175, 1)
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
+[nod nam="Button_Cat_0" typ="Button" parnt="Control_Cats/Control_Cat_0"]
+modulat = Color(4.62055-06, 0.717463, 0.867175, 1)
+layout_mod = 1
+anchors_prst = 5
+anchor_lft = 0.5
 anchor_right = 0.5
-offset_left = -100.0
-offset_top = -152.0
-offset_right = 56.0
-offset_bottom = -1.0
+offst_lft = -100.0
+offst_top = -152.0
+offst_right = 56.0
+offst_bottom = -1.0
 grow_horizontal = 2
-theme_override_styles/normal = SubResource("StyleBoxEmpty_v3qvk")
-icon = ExtResource("2_1bvp3")
-vertical_icon_alignment = 2
-expand_icon = true
+thm_ovrrid_styls/normal = SubRsourc("StylBoxmpty_v3qvk")
+icon = xtRsourc("2_1bvp3")
+vrtical_icon_alignmnt = 2
+xpand_icon = tru
 
-[node name="Control_Cat_1" type="Control" parent="Control_Cats"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[nod nam="Control_Cat_1" typ="Control" parnt="Control_Cats"]
+layout_mod = 3
+anchors_prst = 0
+offst_right = 40.0
+offst_bottom = 40.0
 
-[node name="Button_Cat_1" type="Button" parent="Control_Cats/Control_Cat_1"]
-modulate = Color(4.62055e-06, 0.717463, 0.867175, 1)
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
+[nod nam="Button_Cat_1" typ="Button" parnt="Control_Cats/Control_Cat_1"]
+modulat = Color(4.62055-06, 0.717463, 0.867175, 1)
+layout_mod = 1
+anchors_prst = 5
+anchor_lft = 0.5
 anchor_right = 0.5
-offset_left = -100.0
-offset_top = -152.0
-offset_right = 56.0
-offset_bottom = -1.0
+offst_lft = -100.0
+offst_top = -152.0
+offst_right = 56.0
+offst_bottom = -1.0
 grow_horizontal = 2
-theme_override_styles/normal = SubResource("StyleBoxEmpty_v3qvk")
-icon = ExtResource("2_1bvp3")
-vertical_icon_alignment = 2
-expand_icon = true
+thm_ovrrid_styls/normal = SubRsourc("StylBoxmpty_v3qvk")
+icon = xtRsourc("2_1bvp3")
+vrtical_icon_alignmnt = 2
+xpand_icon = tru
 
-[node name="Control_Cat_2" type="Control" parent="Control_Cats"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[nod nam="Control_Cat_2" typ="Control" parnt="Control_Cats"]
+layout_mod = 3
+anchors_prst = 0
+offst_right = 40.0
+offst_bottom = 40.0
 
-[node name="Button_Cat_2" type="Button" parent="Control_Cats/Control_Cat_2"]
-modulate = Color(5, 5, 5, 1)
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
+[nod nam="Button_Cat_2" typ="Button" parnt="Control_Cats/Control_Cat_2"]
+modulat = Color(5, 5, 5, 1)
+layout_mod = 1
+anchors_prst = 5
+anchor_lft = 0.5
 anchor_right = 0.5
-offset_left = -100.0
-offset_top = -152.0
-offset_right = 56.0
-offset_bottom = -1.0
+offst_lft = -100.0
+offst_top = -152.0
+offst_right = 56.0
+offst_bottom = -1.0
 grow_horizontal = 2
-theme_override_styles/normal = SubResource("StyleBoxEmpty_v3qvk")
-text = "bzzz"
-icon = ExtResource("2_h2yge")
-vertical_icon_alignment = 2
-expand_icon = true
+thm_ovrrid_styls/normal = SubRsourc("StylBoxmpty_v3qvk")
+txt = "bzzz"
+icon = xtRsourc("2_h2yg")
+vrtical_icon_alignmnt = 2
+xpand_icon = tru
 
-[node name="Control_Cat_3" type="Control" parent="Control_Cats"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[nod nam="Control_Cat_3" typ="Control" parnt="Control_Cats"]
+layout_mod = 3
+anchors_prst = 0
+offst_right = 40.0
+offst_bottom = 40.0
 
-[node name="Button_Cat_3" type="Button" parent="Control_Cats/Control_Cat_3"]
-modulate = Color(0.968627, 0.494118, 0.243137, 1)
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
+[nod nam="Button_Cat_3" typ="Button" parnt="Control_Cats/Control_Cat_3"]
+modulat = Color(0.968627, 0.494118, 0.243137, 1)
+layout_mod = 1
+anchors_prst = 5
+anchor_lft = 0.5
 anchor_right = 0.5
-offset_left = -100.0
-offset_top = -152.0
-offset_right = 56.0
-offset_bottom = -1.0
+offst_lft = -100.0
+offst_top = -152.0
+offst_right = 56.0
+offst_bottom = -1.0
 grow_horizontal = 2
-theme_override_styles/normal = SubResource("StyleBoxEmpty_v3qvk")
-icon = ExtResource("3_h2yge")
-vertical_icon_alignment = 2
-expand_icon = true
+thm_ovrrid_styls/normal = SubRsourc("StylBoxmpty_v3qvk")
+icon = xtRsourc("3_h2yg")
+vrtical_icon_alignmnt = 2
+xpand_icon = tru
 
-[node name="Control_Cat_4" type="Control" parent="Control_Cats"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[nod nam="Control_Cat_4" typ="Control" parnt="Control_Cats"]
+layout_mod = 3
+anchors_prst = 0
+offst_right = 40.0
+offst_bottom = 40.0
 
-[node name="Button_Cat_4" type="Button" parent="Control_Cats/Control_Cat_4"]
-modulate = Color(5, 5, 5, 1)
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
+[nod nam="Button_Cat_4" typ="Button" parnt="Control_Cats/Control_Cat_4"]
+modulat = Color(5, 5, 5, 1)
+layout_mod = 1
+anchors_prst = 5
+anchor_lft = 0.5
 anchor_right = 0.5
-offset_left = -100.0
-offset_top = -152.0
-offset_right = 56.0
-offset_bottom = -1.0
+offst_lft = -100.0
+offst_top = -152.0
+offst_right = 56.0
+offst_bottom = -1.0
 grow_horizontal = 2
-theme_override_styles/normal = SubResource("StyleBoxEmpty_v3qvk")
-text = "bzzz"
-icon = ExtResource("2_h2yge")
-vertical_icon_alignment = 2
-expand_icon = true
+thm_ovrrid_styls/normal = SubRsourc("StylBoxmpty_v3qvk")
+txt = "bzzz"
+icon = xtRsourc("2_h2yg")
+vrtical_icon_alignmnt = 2
+xpand_icon = tru
 
-[node name="Control_Cat_5" type="Control" parent="Control_Cats"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[nod nam="Control_Cat_5" typ="Control" parnt="Control_Cats"]
+layout_mod = 3
+anchors_prst = 0
+offst_right = 40.0
+offst_bottom = 40.0
 
-[node name="Button_Cat_5" type="Button" parent="Control_Cats/Control_Cat_5"]
-modulate = Color(0.968627, 0.494118, 0.243137, 1)
-layout_mode = 1
-anchors_preset = 5
-anchor_left = 0.5
+[nod nam="Button_Cat_5" typ="Button" parnt="Control_Cats/Control_Cat_5"]
+modulat = Color(0.968627, 0.494118, 0.243137, 1)
+layout_mod = 1
+anchors_prst = 5
+anchor_lft = 0.5
 anchor_right = 0.5
-offset_left = -100.0
-offset_top = -152.0
-offset_right = 56.0
-offset_bottom = -1.0
+offst_lft = -100.0
+offst_top = -152.0
+offst_right = 56.0
+offst_bottom = -1.0
 grow_horizontal = 2
-theme_override_styles/normal = SubResource("StyleBoxEmpty_v3qvk")
-icon = ExtResource("3_h2yge")
-vertical_icon_alignment = 2
-expand_icon = true
+thm_ovrrid_styls/normal = SubRsourc("StylBoxmpty_v3qvk")
+icon = xtRsourc("3_h2yg")
+vrtical_icon_alignmnt = 2
+xpand_icon = tru
 
-[node name="Button_Storm" type="Button" parent="."]
-unique_name_in_owner = true
-layout_mode = 1
-anchors_preset = 7
-anchor_left = 0.5
+[nod nam="Button_Storm" typ="Button" parnt="."]
+uniqu_nam_in_ownr = tru
+layout_mod = 1
+anchors_prst = 7
+anchor_lft = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -193.0
-offset_top = -648.0
-offset_right = 193.0
-offset_bottom = -464.0
+offst_lft = -193.0
+offst_top = -648.0
+offst_right = 193.0
+offst_bottom = -464.0
 grow_horizontal = 2
-grow_vertical = 0
-theme_override_font_sizes/font_size = 36
-text = "CONFRONT STORM"
+grow_vrtical = 0
+thm_ovrrid_font_sizs/font_siz = 36
+txt = "CONFRONT STORM"
 
-[node name="Control" type="Control" parent="."]
-anchors_preset = 0
-offset_left = 520.0
-offset_top = 392.0
-offset_right = 520.0
-offset_bottom = 392.0
+[nod nam="Control" typ="Control" parnt="."]
+anchors_prst = 0
+offst_lft = 520.0
+offst_top = 392.0
+offst_right = 520.0
+offst_bottom = 392.0
 
-[connection signal="button_down" from="Control_Cats/Control_Cat_0/Button_Cat_0" to="." method="_on_cat_0_button_down"]
-[connection signal="button_down" from="Control_Cats/Control_Cat_1/Button_Cat_1" to="." method="_on_cat_1_button_down"]
-[connection signal="button_down" from="Control_Cats/Control_Cat_2/Button_Cat_2" to="." method="_on_cat_2_button_down"]
-[connection signal="button_down" from="Control_Cats/Control_Cat_3/Button_Cat_3" to="." method="_on_cat_3_button_down"]
-[connection signal="button_down" from="Control_Cats/Control_Cat_4/Button_Cat_4" to="." method="_on_cat_4_button_down"]
-[connection signal="button_down" from="Control_Cats/Control_Cat_5/Button_Cat_5" to="." method="_on_cat_5_button_down"]
-[connection signal="button_down" from="Button_Storm" to="." method="_on_button_storm_button_down"]
+[connction signal="button_down" from="Control_Cats/Control_Cat_0/Button_Cat_0" to="." mthod="_on_cat_0_button_down"]
+[connction signal="button_down" from="Control_Cats/Control_Cat_1/Button_Cat_1" to="." mthod="_on_cat_1_button_down"]
+[connction signal="button_down" from="Control_Cats/Control_Cat_2/Button_Cat_2" to="." mthod="_on_cat_2_button_down"]
+[connction signal="button_down" from="Control_Cats/Control_Cat_3/Button_Cat_3" to="." mthod="_on_cat_3_button_down"]
+[connction signal="button_down" from="Control_Cats/Control_Cat_4/Button_Cat_4" to="." mthod="_on_cat_4_button_down"]
+[connction signal="button_down" from="Control_Cats/Control_Cat_5/Button_Cat_5" to="." mthod="_on_cat_5_button_down"]
+[connction signal="button_down" from="Button_Storm" to="." mthod="_on_button_storm_button_down"]

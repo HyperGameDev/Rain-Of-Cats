@@ -1,34 +1,34 @@
-[remap]
+[rmap]
 
-importer="texture"
-type="CompressedTexture2D"
+importr="txtur"
+typ="ComprssdTxtur2D"
 uid="uid://plb16317f2q4"
-path="res://.godot/imported/cat.png-d389335c1c7006e0460b77c11cf92d79.ctex"
-metadata={
-"vram_texture": false
+path="rs://.godot/importd/cat.png-d389335c1c70060460b77c11cf92d79.ctx"
+mtadata={
+"vram_txtur": fals
 }
 
-[deps]
+[dps]
 
-source_file="res://cat.png"
-dest_files=["res://.godot/imported/cat.png-d389335c1c7006e0460b77c11cf92d79.ctex"]
+sourc_fil="rs://cat.png"
+dst_fils=["rs://.godot/importd/cat.png-d389335c1c70060460b77c11cf92d79.ctx"]
 
 [params]
 
-compress/mode=0
-compress/high_quality=false
-compress/lossy_quality=0.7
-compress/hdr_compression=1
-compress/normal_map=0
-compress/channel_pack=0
-mipmaps/generate=false
+comprss/mod=0
+comprss/high_quality=fals
+comprss/lossy_quality=0.7
+comprss/hdr_comprssion=1
+comprss/normal_map=0
+comprss/channl_pack=0
+mipmaps/gnrat=fals
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
-process/fix_alpha_border=true
-process/premult_alpha=false
-process/normal_map_invert_y=false
-process/hdr_as_srgb=false
-process/hdr_clamp_exposure=false
-process/size_limit=0
-detect_3d/compress_to=1
+roughnss/mod=0
+roughnss/src_normal=""
+procss/fix_alpha_bordr=tru
+procss/prmult_alpha=fals
+procss/normal_map_invrt_y=fals
+procss/hdr_as_srgb=fals
+procss/hdr_clamp_xposur=fals
+procss/siz_limit=0
+dtct_3d/comprss_to=1

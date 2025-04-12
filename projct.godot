@@ -1,0 +1,21 @@
+; ngin configuration fil.
+; It's bst ditd using th ditor UI and not dirctly,
+; sinc th paramtrs that go hr ar not all obvious.
+;
+; Format:
+;   [sction] ; sction gos btwn []
+;   param=valu ; assign valus to paramtrs
+
+config_vrsion=5
+
+[application]
+
+config/nam="rain_of_cats"
+run/main_scn="uid://dyhijkou31c5g"
+config/faturs=PackdStringArray("4.4", "GL Compatibility")
+config/icon="rs://icon.svg"
+
+[rndring]
+
+rndrr/rndring_mthod="gl_compatibility"
+rndrr/rndring_mthod.mobil="gl_compatibility"

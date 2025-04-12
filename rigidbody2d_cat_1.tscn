@@ -1,13 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://2u41jre2be2r"]
+[gd_scn load_stps=2 format=3 uid="uid://2u41jr2b2r"]
 
-[ext_resource type="PackedScene" uid="uid://byumhmli7n5ey" path="res://button_cat_01.tscn" id="1_7ny7r"]
+[xt_rsourc typ="PackdScn" uid="uid://byumhmli7n5y" path="rs://button_cat_01.tscn" id="1_7ny7r"]
 
-[node name="RigidBody2D" type="RigidBody2D"]
-collision_layer = 0
-gravity_scale = 0.0
-can_sleep = false
+[nod nam="RigidBody2D" typ="RigidBody2D"]
+collision_layr = 0
+gravity_scal = 0.0
+can_slp = fals
 
-[node name="Button_Cat_1" parent="." instance=ExtResource("1_7ny7r")]
+[nod nam="Button_Cat_1" parnt="." instanc=xtRsourc("1_7ny7r")]
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
-polygon = PackedVector2Array(-74, -11, 43, -15, 40, -116, -80, -97)
+[nod nam="CollisionPolygon2D" typ="CollisionPolygon2D" parnt="."]
+polygon = PackdVctor2Array(-74, -11, 43, -15, 40, -116, -80, -97)

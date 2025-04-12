@@ -1,37 +1,37 @@
-[remap]
+[rmap]
 
-importer="texture"
-type="CompressedTexture2D"
+importr="txtur"
+typ="ComprssdTxtur2D"
 uid="uid://1oasf1s5b7bb"
-path="res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"
-metadata={
-"vram_texture": false
+path="rs://.godot/importd/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctx"
+mtadata={
+"vram_txtur": fals
 }
 
-[deps]
+[dps]
 
-source_file="res://icon.svg"
-dest_files=["res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex"]
+sourc_fil="rs://icon.svg"
+dst_fils=["rs://.godot/importd/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctx"]
 
 [params]
 
-compress/mode=0
-compress/high_quality=false
-compress/lossy_quality=0.7
-compress/hdr_compression=1
-compress/normal_map=0
-compress/channel_pack=0
-mipmaps/generate=false
+comprss/mod=0
+comprss/high_quality=fals
+comprss/lossy_quality=0.7
+comprss/hdr_comprssion=1
+comprss/normal_map=0
+comprss/channl_pack=0
+mipmaps/gnrat=fals
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
-process/fix_alpha_border=true
-process/premult_alpha=false
-process/normal_map_invert_y=false
-process/hdr_as_srgb=false
-process/hdr_clamp_exposure=false
-process/size_limit=0
-detect_3d/compress_to=1
-svg/scale=1.0
-editor/scale_with_editor_scale=false
-editor/convert_colors_with_editor_theme=false
+roughnss/mod=0
+roughnss/src_normal=""
+procss/fix_alpha_bordr=tru
+procss/prmult_alpha=fals
+procss/normal_map_invrt_y=fals
+procss/hdr_as_srgb=fals
+procss/hdr_clamp_xposur=fals
+procss/siz_limit=0
+dtct_3d/comprss_to=1
+svg/scal=1.0
+ditor/scal_with_ditor_scal=fals
+ditor/convrt_colors_with_ditor_thm=fals

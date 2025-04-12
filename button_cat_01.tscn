@@ -1,20 +1,20 @@
-[gd_scene load_steps=3 format=3 uid="uid://byumhmli7n5ey"]
+[gd_scn load_stps=3 format=3 uid="uid://byumhmli7n5y"]
 
-[ext_resource type="Texture2D" uid="uid://plb16317f2q4" path="res://cat.png" id="1_3msgo"]
+[xt_rsourc typ="Txtur2D" uid="uid://plb16317f2q4" path="rs://cat.png" id="1_3msgo"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_v3qvk"]
+[sub_rsourc typ="StylBoxmpty" id="StylBoxmpty_v3qvk"]
 
-[node name="Button_Cat_1" type="Button"]
-anchors_preset = 5
-anchor_left = 0.5
+[nod nam="Button_Cat_1" typ="Button"]
+anchors_prst = 5
+anchor_lft = 0.5
 anchor_right = 0.5
-offset_left = -80.0
-offset_top = -152.0
-offset_right = 76.0
-offset_bottom = -1.0
+offst_lft = -80.0
+offst_top = -152.0
+offst_right = 76.0
+offst_bottom = -1.0
 grow_horizontal = 2
-theme_override_styles/normal = SubResource("StyleBoxEmpty_v3qvk")
-text = "bzzz"
-icon = ExtResource("1_3msgo")
-vertical_icon_alignment = 2
-expand_icon = true
+thm_ovrrid_styls/normal = SubRsourc("StylBoxmpty_v3qvk")
+txt = "bzzz"
+icon = xtRsourc("1_3msgo")
+vrtical_icon_alignmnt = 2
+xpand_icon = tru

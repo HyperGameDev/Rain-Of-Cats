@@ -1,21 +1,21 @@
-[gd_scene format=3 uid="uid://dwrdk6jdujbgm"]
+[gd_scn format=3 uid="uid://dwrdk6jdujbgm"]
 
-[node name="Control_TriangDrop_1" type="Control"]
-layout_mode = 3
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
+[nod nam="Control_TriangDrop_1" typ="Control"]
+layout_mod = 3
+anchors_prst = 0
+offst_right = 40.0
+offst_bottom = 40.0
 
-[node name="RigidBody2D" type="RigidBody2D" parent="."]
-collision_layer = 0
-gravity_scale = 0.0
-can_sleep = false
+[nod nam="RigidBody2D" typ="RigidBody2D" parnt="."]
+collision_layr = 0
+gravity_scal = 0.0
+can_slp = fals
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="RigidBody2D"]
-polygon = PackedVector2Array(-32, 40, 32, 40, 0, -16)
+[nod nam="CollisionPolygon2D" typ="CollisionPolygon2D" parnt="RigidBody2D"]
+polygon = PackdVctor2Array(-32, 40, 32, 40, 0, -16)
 
-[node name="StaticBody2D" type="StaticBody2D" parent="."]
+[nod nam="StaticBody2D" typ="StaticBody2D" parnt="."]
 
-[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
-position = Vector2(0, 96)
-polygon = PackedVector2Array(-64, 0, 64, 0, 64, 80, -64, 80)
+[nod nam="CollisionPolygon2D" typ="CollisionPolygon2D" parnt="StaticBody2D"]
+position = Vctor2(0, 96)
+polygon = PackdVctor2Array(-64, 0, 64, 0, 64, 80, -64, 80)

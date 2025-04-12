@@ -1,4 +1,4 @@
-extends Control
+xtnds Control
 
 var cat_num: int = -1
 var cat_max: int = 5
