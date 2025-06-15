@@ -1,7 +1,10 @@
 # Rain of Cats (No Letter "E" Challenge)
+<p><br></p>
 <h2 class="text-center"><strong>CONTROLS</strong></h2>
 <p class="text-center"><strong>RMB:</strong> Start rounds and float animals<br><strong>Move mouse:</strong> Advance the storm during each round<span></span></p>
-<p></p>
+<p><br></p>
+
+# ABOUT
 <h3 class="text-center">This game was made in Godot in 12 hours for a Game Dev GAUNTLET challenge: "No Letter E".</h3>
 <p class="text-center"> Check out the entire, livestreamed-development here!
 <br><a style="font-family: inherit;" href="https://youtube.com/live/g-xcY-w0Mlg" target="_blank">https://youtube.com/live/g-xcY-w0Mlg</a></p>
