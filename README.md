@@ -4,6 +4,13 @@
 <p class="text-center"><strong>RMB:</strong> Start rounds and float animals<br><strong>Move mouse:</strong> Advance the storm during each round<span></span></p>
 <p><br></p>
 
+# PLAY
+Itch.io URL: <a href="https://hypergamedev.itch.io/rain-of-cats" target="_blank">https://hypergamedev.itch.io/rain-of-cats</a>
+<p><br></p>
+<h2 class="text-center"><strong>CONTROLS</strong></h2>
+<p class="text-center"><strong>WASD/Arrow Keys:</strong> Movement<br><strong>Space/Enter:</strong> Jump<span></span></p>
+<p><br></p>
+
 # ABOUT
 <h3 class="text-center">This game was made in Godot in 12 hours for a Game Dev GAUNTLET challenge: "No Letter E".</h3>
 <p class="text-center"> Check out the entire, livestreamed-development here!
@@ -24,7 +31,7 @@
 <p></p>
 
 # Credits
-<li><strong>Lýz</strong> (Primary development)</li> 
+<li><strong>Lýz Lissade</strong> (Primary development)</li> 
 <li><strong>Dungeon Martian</strong> (Primary advisor)</li>
 <li>PawnxPawn</li>
 <li><strong>R0fael</strong> (Made the sprites cuter)</li>
